@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- <button type="button" id="newBookBtn">Add New Book</button> -->
+        <div id="newBookForm">
+            <label for="bookTitle">Book Title:</label>
+            <input type="text" name="bookTitle" id="bookTitle" />
+            <label for="bookAuthor">Book Author:</label>
+            <input type="text" name="nookAuthor" id="bookAuthor" />
+            <label for="bookPages">Number of Pages:</label>
+            <input
+                type="number"
+                name="bookPages"
+                id="bookPages"
+                min="5"
+                max="2000"
+                placeholder="min: 5 - max: 2000"
+            />
+
+            <button id="bookRead" class="read">Read</button>
+            <div></div>
+
+            <button type="submit" id="submitBtn">Submit New Book</button>
+        </div>
+        <div id="bookCards">
+            <!-- <div class="container">
+                <p class="cardTitle">The Hobbit</p>
+                <p class="cardAuthor">J.R.R. Tolkien</p>
+                <div class="cardPagesRead">
+                    <p class="cardPages">Pages: 256</p>
+                    <p class="cardRead">read</p>
+                </div>
+                <button class="deleteBook"></button>
+            </div> -->
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>

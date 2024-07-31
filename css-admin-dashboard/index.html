@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>CSS Admin Dashboard</title>
+    </head>
+    <body>
+        <div id="sidebar">
+            <div id="sidebarHeader">
+                <img
+                    class="dashLogo"
+                    src="./images/view-dashboard-outline.svg"
+                    alt=""
+                />
+                <h1>Dashboard</h1>
+            </div>
+            <div id="sidebarNav">
+                <div id="topNav">
+                    <div class="row">
+                        <div id="homeLogo" class="navLogo">
+                            <img src="./images/home.svg" alt="" />
+                        </div>
+                        <h2 class="Title">Home</h2>
+                    </div>
+                    <div class="row">
+                        <div id="profileLogo" class="navLogo">
+                            <img
+                                src="./images/card-account-details-outline.svg"
+                                alt=""
+                            />
+                        </div>
+                        <h2 class="Title">Profile</h2>
+                    </div>
+                    <div class="row">
+                        <div id="messagesLogo" class="navLogo">
+                            <img src="./images/message.svg" alt="" />
+                        </div>
+                        <h2 class="Title">Messages</h2>
+                    </div>
+                    <div class="row">
+                        <div id="HistoryLogo" class="navLogo">
+                            <img src="./images/clock-time-eight.svg" alt="" />
+                        </div>
+                        <h2 class="Title">History</h2>
+                    </div>
+                    <div class="row">
+                        <div id="tasksLogo" class="navLogo">
+                            <img src="./images/note-multiple.svg" alt="" />
+                        </div>
+                        <h2 class="Title">Tasks</h2>
+                    </div>
+                    <div class="row">
+                        <div id="communitiesLogo" class="navLogo">
+                            <img src="./images/account-group.svg" alt="" />
+                        </div>
+                        <h2 class="Title">Communities</h2>
+                    </div>
+                </div>
+                <div id="bottomNav">
+                    <div class="row">
+                        <div id="settingsLogo" class="navLogo">
+                            <img src="./images/cog.svg" alt="" />
+                        </div>
+                        <h2 class="Title">Settings</h2>
+                    </div>
+                    <div class="row">
+                        <div id="supportLogo" class="navLogo">
+                            <img src="./images/help-box.svg" alt="" />
+                        </div>
+                        <h2 class="Title">Support</h2>
+                    </div>
+                    <div class="row">
+                        <div id="privacyLogo" class="navLogo">
+                            <img src="./images/shield-check.svg" alt="" />
+                        </div>
+                        <h2 class="Title">Privacy</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mainArea">
+            <div id="topArea">
+                <div id="topBar">
+                    <div id="topBarTopRow">
+                        <div class="searchArea">
+                            <img
+                                src="./images/magnify.svg"
+                                alt=""
+                                class="navLogo"
+                                id="searchLogo"
+                            />
+                            <input
+                                type="text"
+                                name="search"
+                                id="search"
+                                placeholder="Search..."
+                            />
+                        </div>
+
+                        <div class="topNotificationArea">
+                            <img
+                                src="./images/bell-ring.svg"
+                                alt=""
+                                class="navLogo"
+                                id="notificationLogo"
+                            /><img
+                                class="profileImage"
+                                src="./images/user-avatar-alien-icon-511x512-p75yc84i.png"
+                                alt=""
+                            />
+                            <h4>Leanne Jamison</h4>
+                        </div>
+                    </div>
+                    <div id="bottomBar">
+                        <div id="profileArea">
+                            <img
+                                class="profileImageLrg"
+                                src="./images/user-avatar-alien-icon-511x512-p75yc84i.png"
+                                alt=""
+                            />
+                            <div id="bottomProfileSection">
+                                <div id="greeting">Hi There</div>
+                                <h1>Leanne Jamison (@Leanne)</h1>
+                            </div>
+                        </div>
+
+                        <div id="buttonArea">
+                            <button>New</button>
+                            <button>Upload</button>
+                            <button>Share</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mainSection">
+                <div id="projects">
+                    <h2>Your Projects</h2>
+                    <div id="cardArea">
+                        <div class="projectCard">
+                            <div class="cardDetails">
+                                <h3>Super Cool Project</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Eos iusto dolor ad cumque
+                                    ratione sapiente?
+                                </p>
+                            </div>
+                            <div class="cardNav">
+                                <div></div>
+                                <div class="cardNavItems">
+                                    <img
+                                        src="./images/star.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                    <img
+                                        src="./images/eye-plus.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                    <img
+                                        src="./images/share-variant.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <div class="cardDetails">
+                                <h3>Super Cool Project</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Eos iusto dolor ad cumque
+                                    ratione sapiente?
+                                </p>
+                            </div>
+                            <div class="cardNav">
+                                <div></div>
+                                <div class="cardNavItems">
+                                    <img
+                                        src="./images/star.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                    <img
+                                        src="./images/eye-plus.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                    <img
+                                        src="./images/share-variant.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <div class="cardDetails">
+                                <h3>Super Cool Project</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Eos iusto dolor ad cumque
+                                    ratione sapiente?
+                                </p>
+                            </div>
+                            <div class="cardNav">
+                                <div></div>
+                                <div class="cardNavItems">
+                                    <img
+                                        src="./images/star.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                    <img
+                                        src="./images/eye-plus.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                    <img
+                                        src="./images/share-variant.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <div class="cardDetails">
+                                <h3>Super Cool Project</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Eos iusto dolor ad cumque
+                                    ratione sapiente?
+                                </p>
+                            </div>
+                            <div class="cardNav">
+                                <div></div>
+                                <div class="cardNavItems">
+                                    <img
+                                        src="./images/star.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                    <img
+                                        src="./images/eye-plus.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                    <img
+                                        src="./images/share-variant.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <div class="cardDetails">
+                                <h3>Super Cool Project</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Eos iusto dolor ad cumque
+                                    ratione sapiente?
+                                </p>
+                            </div>
+                            <div class="cardNav">
+                                <div></div>
+                                <div class="cardNavItems">
+                                    <img
+                                        src="./images/star.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                    <img
+                                        src="./images/eye-plus.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                    <img
+                                        src="./images/share-variant.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <div class="cardDetails">
+                                <h3>Super Cool Project</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Eos iusto dolor ad cumque
+                                    ratione sapiente?
+                                </p>
+                            </div>
+                            <div class="cardNav">
+                                <div></div>
+                                <div class="cardNavItems">
+                                    <img
+                                        src="./images/star.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                    <img
+                                        src="./images/eye-plus.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                    <img
+                                        src="./images/share-variant.svg"
+                                        alt=""
+                                        class="cardNavItemLogo"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mainSideBar">
+                    <h2>Announcements</h2>
+                    <div id="announceArea" class="sideBarSection">
+                        <h5>Item1</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Amet officiis quod voluptatem mollitia libero
+                            corporis.
+                        </p>
+                        <hr />
+                        <h5>Item1</h5>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Eligendi odit sit aliquam labore. Sit sequi
+                            vero labore eaque ducimus fugit soluta iusto numquam
+                            molestias veritatis!
+                        </p>
+                        <hr />
+                        <h5>Item1</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Unde, sunt sint. Possimus earum quaerat illo
+                            nisi distinctio vitae animi esse corporis expedita
+                            provident, optio impedit magnam libero, dolores
+                            labore odit laudantium laboriosam?
+                        </p>
+                    </div>
+                    <br />
+                    <h2>Trending</h2>
+                    <div id="trendArea" class="sideBarSection">
+                        <div class="trendingProfiles">
+                            <!-- <div class="plcement"></div> -->
+                            <img
+                                src="./images/—Pngtree—vector avatar icon_4013749.png"
+                                alt=""
+                                class="plcement"
+                            />
+                            <div class="profileDetails">
+                                <h5>Item1</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="trendingProfiles">
+                            <!-- <div class="plcement"></div> -->
+                            <img
+                                src="./images/—Pngtree—vector avatar icon_4013749.png"
+                                alt=""
+                                class="plcement"
+                            />
+                            <div class="profileDetails">
+                                <h5>Item1</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="trendingProfiles">
+                            <!-- <div class="plcement"></div> -->
+                            <img
+                                src="./images/—Pngtree—vector avatar icon_4013749.png"
+                                alt=""
+                                class="plcement"
+                            />
+                            <div class="profileDetails">
+                                <h5>Item1</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="trendingProfiles">
+                            <!-- <div class="plcement"></div> -->
+                            <img
+                                src="./images/—Pngtree—vector avatar icon_4013749.png"
+                                alt=""
+                                class="plcement"
+                            />
+                            <div class="profileDetails">
+                                <h5>Item1</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>

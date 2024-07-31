@@ -1,0 +1,29 @@
+.grandparent {
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+    margin: auto;
+    
+}
+
+.parent {
+    width: 300px;
+    height: 300px;
+    background-color: lightsalmon;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.child {
+    width: 150px;
+    height: 150px;
+    background-color: lightgreen;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#textBox {
+    border: 2px solid blue;
+    height: 100px;
+    font-size: 75px;
+}

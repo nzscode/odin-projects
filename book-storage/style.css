@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px;
+    margin: 0px;
+}
+
+/* #newBookBtn {
+    width: 32%;
+    height: 50px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: lightgray;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+}
+
+#newbookBtn:hover {
+    background-color: rgb(209, 181, 181);
+} */
+
+#newBookForm {
+    visibility: visible;
+    padding: 45px;
+    width: 500px;
+    height: 350px;
+    display: grid;
+    gap: 25px;
+    border: 15px groove blue;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px lightblue;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(5, 1fr);
+    background-color: rgba(0, 255, 255, 0.301);
+}
+#newBookForm > p {
+    margin-top: 0px;
+}
+
+#submitBtn {
+    border-radius: 15px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 5px grey;
+    width: 100%;
+    font-size: 16px;
+    margin-left: 50%;
+    cursor: pointer;
+}
+
+#bookCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px;
+}
+.container {
+    width: 300px;
+    height: 275px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 20% 20% 40%;
+    gap: 5px;
+    justify-self: center;
+    align-items: center;
+    border: 2px solid lightgrey;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px lightgrey;
+    padding: 15px;
+}
+
+.cardTitle {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cardAuthor {
+    font-style: italic;
+}
+
+#bookRead {
+    font-size: 16px;
+    font-weight: bold;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.cardPagesRead {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    justify-items: start;
+    align-items: center;
+}
+
+.cardRead {
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+}
+.read {
+    border: 2px solid green;
+    background-color: lightgreen;
+}
+.unread {
+    border: 2px solid red;
+    background-color: lightcoral;
+}
+
+.deleteBook {
+    width: 50px;
+    height: 50px;
+    background-image: url("./images/icons8-bin-48.png");
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://kit.fontawesome.com/08988bcf09.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>To Do</title>
+    </head>
+    <body>
+        <div id="headerBar">
+            <h1 id="headerBarTitle">To Do List</h1>
+            <button id="activityLogBtn">Activity Log</button>
+        </div>
+        <div id="activityContainer">
+            <div id="activityList">
+                <div id="activityLogHeaderBar">
+                    <h2>Activity Log</h2>
+                    <div id="closeLog">X</div>
+                </div>
+                <div id="activityLogContents"></div>
+            </div>
+        </div>
+        <div id="main">
+            <div id="sideBar">
+                <div id="inputArea">
+                    <label for="projectName">Project Name</label>
+                    <input
+                        type="text"
+                        id="projectName"
+                        name="projectName"
+                        autocomplete="off"
+                    />
+                    <label for="projectDescription">Project Description</label>
+                    <input
+                        type="text"
+                        name="projectDescription"
+                        id="projectDescription"
+                    />
+                    <label for="projectDueDate">Due Date</label>
+                    <input
+                        type="date"
+                        name="projectDueDate"
+                        id="projectDueDate"
+                        autocomplete="off"
+                    />
+                    <button id="saveProjectBtn">Enter</button>
+                    <!-- <button id="addTask">Add Task</button> -->
+                </div>
+                <div id="projectArea"></div>
+            </div>
+            <div id="detailArea">
+                <div id="taskContainer">
+                    <div id="taskCreationArea">
+                        <h2 id="activeProjectHeading">Adding Task To:</h2>
+                        <label for="taskName">Task Name: </label>
+                        <input
+                            type="text"
+                            id="taskName"
+                            autocomplete="off"
+                            required
+                        />
+                        <label for="taskDescription"> Task Description: </label>
+                        <input
+                            type="text"
+                            id="taskDescription"
+                            autocomplete="off"
+                        />
+                        <label for="taskDueDate">Task Due Date</label>
+                        <input
+                            type="date"
+                            name="taskDueDate"
+                            id="taskDueDate"
+                            required
+                        />
+                        <div id="save_cancel">
+                            <button id="saveTaskBtn">Save Task</button>
+                            <button id="cancelTaskBtn">Cancel Task</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="taskArea"></div>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

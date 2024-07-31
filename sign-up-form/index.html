@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="pageContainer">
+            <div id="sideBar">
+                <div id="background">
+                    <div id="odinBackground">
+                        <div id="odinLogo">
+                            <img src="./images/odin-lined.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="formSide">
+                <div id="odin">ODIN</div>
+                <div id="greeting">
+                    <p>
+                        This is not a real online service! You know you need
+                        something like this in your life to help you realize
+                        your deepest dreams. <br />Sign up now to get started.
+                    </p>
+                    <p>You <em>know</em> you want to.</p>
+                </div>
+                <div id="accountForm">
+                    <p id="para">Let's do this!</p>
+                    <div id="FormContainer">
+                        <form action="">
+                            <div class="row">
+                                <div class="labelAndInput">
+                                    <label for="firstName" id="firstNameLabel"
+                                        >FIRST NAME</label
+                                    >
+                                    <input
+                                        type="text"
+                                        name="firstName"
+                                        id="firstNameInput"
+                                    />
+                                </div>
+                                <div class="labelAndInput">
+                                    <label for="lastName" id="lastNameLabel"
+                                        >LAST NAME</label
+                                    >
+                                    <input
+                                        type="text"
+                                        name="lastName"
+                                        id="lastNameInput"
+                                    />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="labelAndInput">
+                                    <label for="email" id="emailLabel"
+                                        >EMAIL</label
+                                    >
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        id="emailInput"
+                                    />
+                                </div>
+                                <div class="labelAndInput">
+                                    <label for="telephone" id="telephoneLabel"
+                                        >PHONE NUMBER</label
+                                    >
+                                    <input
+                                        type="tel"
+                                        name="telephone"
+                                        id="telephoneInput"
+                                    />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="labelAndInput">
+                                    <label for="password" id="passwordLabel"
+                                        >PASSWORD</label
+                                    >
+                                    <input
+                                        type="password"
+                                        name="password"
+                                        id="passwordInput"
+                                    />
+                                </div>
+                                <div class="labelAndInput">
+                                    <label
+                                        for="confirmPassword"
+                                        id="confirmPasswordLabel"
+                                        >CONFIRM PASSWORD</label
+                                    >
+                                    <input
+                                        type="password"
+                                        name="confirmPassword"
+                                        id="confirmPasswordInput"
+                                    />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div id="submitArea">
+                    <button type="submit" id="createAccount">
+                        Create Account
+                    </button>
+                    <p>Already have an account? <a href="">Log in</a></p>
+                </div>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

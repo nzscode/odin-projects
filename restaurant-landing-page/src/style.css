@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #fefbd8;
+    margin: 0;
+}
+
+header {
+    width: auto;
+}
+
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    background-color: #bb9ab1;
+    border-top: 2px solid #bb9ab1;
+    border-left: 2px solid #bb9ab1;
+    border-right: 2px solid #bb9ab1;
+    border-bottom: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 5px -5px 10px lightgrey;
+    color: #4d0952;
+    font-size: 115%;
+}
+
+button:first-child {
+    justify-self: end;
+}
+
+button:last-child {
+    justify-self: start;
+}
+
+button:hover {
+    background-color: #99728d;
+    cursor: pointer;
+}
+
+main {
+    width: 77%;
+    height: 100vh;
+    background-color: #bb9ab1;
+    margin-left: 11.5%;
+    padding: 15px;
+}
+
+#titleBar {
+    padding-top: 25px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-template-rows: 100%;
+    column-gap: 5px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #bb9ab1;
+    border-radius: 200px;
+    justify-self: end;
+    align-self: center;
+}
+
+#titleBarDetails {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60% 20%;
+}
+
+#titleBarDetails h1 {
+    font-size: 50px;
+    color: #4d0952;
+}
+
+#titleBarDetails p {
+    color: #4d0952;
+    font-size: 25px;
+}
+
+#mainContentDescription > p {
+    padding: 35px 100px;
+    font-size: 16px;
+    line-height: 30px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+#mainContent {
+    border: 2px solid #4d0952;
+    background-color: #eeceb9;
+    border-radius: 15px;
+}
+
+.menuItemHeading {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px;
+    align-items: center;
+    justify-items: center;
+}
+
+.menuDiv > p {
+    padding: 15px 100px;
+    font-size: 16px;
+    line-height: 30px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+.aboutLocation {
+    padding: 15px;
+}

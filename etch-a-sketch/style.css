@@ -1,0 +1,33 @@
+body {
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 25%;
+    border: 20px solid antiquewhite;
+    border-radius: 5px;
+    box-shadow: 15px 10px 10px rgb(218, 217, 217);
+}
+
+.square {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+button {
+    height: 70px;
+    width: 150px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+    margin-left: 37%;
+    border: 15px groove grey;
+    border-radius: 15px;
+}
